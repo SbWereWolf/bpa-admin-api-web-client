@@ -99,7 +99,7 @@
         };
 
         let request = new Request(
-            `http://89.17.59.146:8081/api/v1/noda/existence`, {
+            `http://gitlab.rnko-kholmsk.ru:8081/api/v1/noda/existence`, {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(params),
@@ -141,7 +141,7 @@
                     "noda_id": noda_id,
                 };
                 request = new Request(
-                    `http://89.17.59.146:8081/api/v1/identification/request`, {
+                    `http://gitlab.rnko-kholmsk.ru:8081/api/v1/identification/request`, {
                         method: 'POST',
                         headers: headers,
                         body: JSON.stringify(params),
@@ -250,7 +250,7 @@
         };
 
         let request = new Request(
-            `http://89.17.59.146:8081/api/v1/noda/existence`, {
+            `http://gitlab.rnko-kholmsk.ru:8081/api/v1/noda/existence`, {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(params),
@@ -376,7 +376,7 @@
                     "address_mail": address_mail,
                 };
                 request = new Request(
-                    `http://89.17.59.146:8081/api/v1/identification/update`, {
+                    `http://gitlab.rnko-kholmsk.ru:8081/api/v1/identification/update`, {
                         method: 'POST',
                         headers: headers,
                         body: JSON.stringify(params),

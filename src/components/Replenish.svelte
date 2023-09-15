@@ -33,7 +33,7 @@
             "operation_id": operation_id,
         };
         let request = new Request(
-            `http://89.17.59.146:8081/api/v1/replenish/status`, {
+            `http://gitlab.rnko-kholmsk.ru:8081/api/v1/replenish/status`, {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(params),
@@ -77,7 +77,7 @@
         };
 
         let request = new Request(
-            `http://89.17.59.146:8081/api/v1/noda/existence`, {
+            `http://gitlab.rnko-kholmsk.ru:8081/api/v1/noda/existence`, {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(params),
@@ -128,7 +128,7 @@
                     "phone": phone
                 };
                 request = new Request(
-                    `http://89.17.59.146:8081/api/v1/replenish/request`, {
+                    `http://gitlab.rnko-kholmsk.ru:8081/api/v1/replenish/request`, {
                         method: 'POST',
                         headers: headers,
                         body: JSON.stringify(params),

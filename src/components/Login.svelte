@@ -17,7 +17,7 @@
             "service_point_id": service_point_id,
         };
         let request = new Request(
-            `http://89.17.59.146:8081/api/v1/session`, {
+            `http://gitlab.rnko-kholmsk.ru:8081/api/v1/session`, {
                 method: 'POST',
                 headers: headers,
                 body: JSON.stringify(params),
